@@ -9,6 +9,7 @@ A ideia básica é pegar uma fonte de "pérolas" e gerar um texto aleatório com
 ### Funções que você pode criar
 * colocar novas pérolas no perolas-e-autores.js
 * criar um design decente
+* consertar os bugs que estiverem nas issues
 * algo legal que vier na cabeça
 
 ##### Autor: Matheus Graciano (matheus@eforan.com)

@@ -10,13 +10,19 @@ $(function(){
             texto+="<p>";
             var minPalavras = 70 + Math.floor(Math.random()*10);//totalmente arbritário :p
             var contPalavras = 0;
+            var perolasUsadas = [];
             while(contPalavras<minPalavras){
-                var frases = PEROLAS[Math.floor(Math.random()*PEROLAS.length)].split(".");
-                var frase;
                 do{
-                    frase = frases[Math.floor(Math.random()*frases.length)].trim();
-                    console.log("Im stuck??");
-                }while(frase==="");
+                    var indexPerola = Math.floor(Math.random()*PEROLAS.length);
+                    var frases = PEROLAS[indexPerola].split(".");
+                    var frase;
+                    do{
+                        var indexFrase = Math.floor(Math.random()*frases.length);
+                        frase = frases[indexFrase].trim();
+
+                    }while(frase==="");
+                }while(perolasUsadas.indexOf([indexPerola, indexFrase])!=-1);
+                perolasUsadas.push([indexPerola, indexFrase]);
                 texto+=frase+". ";
                 contPalavras+=frase.split(" ").length;
             }

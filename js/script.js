@@ -6,7 +6,7 @@ $(function(){
     var $loremCopa = $("#lorem-copa");
     $("#gerar").on('click', function(ev){
         var numParagrafos = $("#campo-paragrafo").val();
-        var autores = $("#campo-autores").val();
+        var autores = $("#campo-autores").checked;
         console.log(autores);
         $loremCopa.loremCopa(numParagrafos, autores);
         $("#lorem-form").fadeOut(0);

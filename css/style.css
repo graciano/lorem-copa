@@ -6,3 +6,10 @@ input[type=number]{
     position: absolute;
     padding-bottom: 10px;
 }
+.footer-bottom ul{
+    list-style: none;
+    margin: 0;
+}
+.footer-bottom li{
+    display: inline;
+}

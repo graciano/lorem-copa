@@ -24,7 +24,8 @@
         "Devemos dizer aos brasileiros que eles terão uma Copa do Mundo e que eles devem mostrar as belezas de seu país a paixão pelo futebol. Se eles puderem esperar um mês antes de organizarem manifestações, será bom para o Brasil e para o mundo do futebol.",
         "Nós nunca reclamamos de ir a pé (ao estádio). Vai a pé, vai descalço, vai de bicicleta, vai de jumento, vai de qualquer coisa. A gente está preocupado? Ah não, porque agora tem de ter metrô até dentro do estádio. Que babaquice que é essa?",
         "A CBF é exemplo. É o Brasil que dá certo",
-        "Sobre os vândalos, acho que tem que baixar o cacete neles, tirar da rua"
+        "Sobre os vândalos, acho que tem que baixar o cacete neles, tirar da rua",
+        "O que tinha que ser roubado já foi. Se fosse para protestar, que tivesse sido feito antes."
     ];
 
 
@@ -67,5 +68,6 @@
         "Lula",
         "Ibraimovich",
         "José Maria Marin",
-        "Michel Platini"
+        "Michel Platini",
+        "Joana Havelange"
     ];

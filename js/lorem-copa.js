@@ -15,12 +15,14 @@ $(function(){
                 do{
                     var indexPerola = Math.floor(Math.random()*PEROLAS.length);
                     var frases = PEROLAS[indexPerola].split(".");
-                    var frase;
-                    do{
-                        var indexFrase = Math.floor(Math.random()*frases.length);
-                        frase = frases[indexFrase].trim();
+                    //removendo string vazia
+                    var indexOfEmptyString = frases.indexOf("");
+                    if(indexOfEmptyString!=-1)
+                        frases.splice(indexOfEmptyString);
 
-                    }while(frase==="");
+                    var frase;
+                    var indexFrase = Math.floor(Math.random()*frases.length);
+                    frase = frases[indexFrase].trim();
                 }while(perolasUsadas.indexOf([indexPerola, indexFrase])!=-1);
                 perolasUsadas.push([indexPerola, indexFrase]);
                 texto+=frase+". ";

@@ -10,21 +10,20 @@ $(function(){
             texto+="<p>";
             var minPalavras = 70 + Math.floor(Math.random()*10);//totalmente arbritário :p
             var contPalavras = 0;
-            var perolasUsadas = [];
             while(contPalavras<minPalavras){
+                var frasesUsadas = [];
+                var indexPerola = Math.floor(Math.random()*PEROLAS.length);
+                var frases = PEROLAS[indexPerola].split(".");
                 do{
-                    var indexPerola = Math.floor(Math.random()*PEROLAS.length);
-                    var frases = PEROLAS[indexPerola].split(".");
                     //removendo string vazia
                     var indexOfEmptyString = frases.indexOf("");
                     if(indexOfEmptyString!=-1)
                         frases.splice(indexOfEmptyString);
 
-                    var frase;
                     var indexFrase = Math.floor(Math.random()*frases.length);
-                    frase = frases[indexFrase].trim();
-                }while(perolasUsadas.indexOf([indexPerola, indexFrase])!=-1);
-                perolasUsadas.push([indexPerola, indexFrase]);
+                    var frase = frases[indexFrase].trim();
+                }while(frasesUsadas.indexOf(indexFrase)!=-1);
+                frasesUsadas.push(indexFrase);
                 texto+=frase+". ";
                 contPalavras+=frase.split(" ").length;
             }

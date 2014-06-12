@@ -20,4 +20,15 @@ $(function(){
         $loremForm.fadeIn();
         $(this).fadeOut();
     });
+    $(".botao-perola").on("click", function(){
+        var $perolaAtual = $(".perola-atual");
+        var index = parseInt($perolaAtual.attr("data-index"));
+        var incremento = parseInt($(this).attr("data-incremento"));
+        var indexResultado = (index + incremento) % PEROLAS.length;
+        $perolaAtual.attr("data-index", indexResultado);
+        $perolaAtual.fadeOut(500, function(){
+            $(this).text(PEROLAS[indexResultado]);
+            $(this).fadeIn(500);
+        });
+    });
 });

@@ -3,7 +3,7 @@ input[type=number]{
 }
 .footer-bottom{
     bottom:0;
-    position: absolute;
+    position: relative;
     padding-bottom: 10px;
 }
 .footer-bottom ul{
@@ -12,4 +12,10 @@ input[type=number]{
 }
 .footer-bottom li{
     display: inline;
+}
+#perolas{
+    height: 200px;
+}
+#conteudo{
+    margin-bottom: 50px;
 }

@@ -8,6 +8,7 @@
  * a frase da joana havelange dispensa fontes
 */
 var PEROLAS = [
+    "A CBF é exemplo. É o Brasil que dá certo",
     "Em 2014, posso fazer a maldade que for. A maldade mais elástica, mais impensável, mais maquiavélica. Não dar credencial, proibir acesso, mudar horário de jogo. E sabe o que vai acontecer? Nada. Sabe por quê? Porque eu saio em 2015. E aí, acabou.",
     "A imprensa é a maior culpada de tudo isso. Por ser toda paulista, passou três anos tentando enfiar goela abaixo o Morumbi. Com isso, atrasaram todos os projetos.",
     "A gente vai receber Copa do Mundo e sem estádio não faz Copa do Mundo, amigo. Não faz Copa do Mundo com hospital. Tem que fazer estádio, senão não tem Copa do Mundo também.",
@@ -27,7 +28,6 @@ var PEROLAS = [
     "Estamos no purgatório. Se ganharmos a Copa, vamos para o céu. Se perdermos, vamos para o inferno",
     "Devemos dizer aos brasileiros que eles terão uma Copa do Mundo e que eles devem mostrar as belezas de seu país a paixão pelo futebol. Se eles puderem esperar um mês antes de organizarem manifestações, será bom para o Brasil e para o mundo do futebol.",
     "Nós nunca reclamamos de ir a pé (ao estádio). Vai a pé, vai descalço, vai de bicicleta, vai de jumento, vai de qualquer coisa. A gente está preocupado? Ah não, porque agora tem de ter metrô até dentro do estádio. Que babaquice que é essa?",
-    "A CBF é exemplo. É o Brasil que dá certo",
     "Sobre os vândalos, acho que tem que baixar o cacete neles, tirar da rua",
     "O que tinha que ser roubado já foi. Se fosse para protestar, que tivesse sido feito antes.",
     "Tem gente que torce para o Brasil dar errado. Tem muita gente torcendo para o Brasil dar errado, é só você olhar.",

@@ -4,18 +4,20 @@
 $(function(){
     $(".lorem-copa").fadeOut(0);
     var $loremCopa = $("#lorem-copa");
-    $("#gerar").on('click', function(ev){
+    var $loremForm = $("#lorem-form");
+
+    $loremForm.on("submit", function(ev){
         var numParagrafos = $("#campo-paragrafo").val();
         var autores = $("#campo-autores").is(":checked");
         $loremCopa.loremCopa(numParagrafos, autores);
-        $("#lorem-form").fadeOut(0);
+        $(this).fadeOut(0);
         $(".lorem-copa").fadeIn();
         ev.preventDefault();
-        return false;
     });
+
     $("#volta-form").on('click', function(){
         $loremCopa.fadeOut();
-        $("#lorem-form").fadeIn();
+        $loremForm.fadeIn();
         $(this).fadeOut();
     });
 });

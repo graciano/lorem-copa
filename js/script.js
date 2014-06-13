@@ -4,6 +4,15 @@
 $(function(){
     var $loremCopa = $("#lorem-copa");
     var $loremForm = $("#lorem-form");
+    for(var i=1; i<PEROLAS.length; i++){
+        var perola = PEROLAS[i];
+        var autor = AUTORES[i];
+        $(".carousel-inner", $("#carousel-info-lorem-copa"))
+            .append("<div class='item blockquote-perola'><blockquote class='blockquote-reverse'>"
+                +"<p>"+perola+"</p>"
+                +"<footer><cite title=''>"+autor+"</cite></footer>"
+            +"</blockquote></div>");
+    }
 
     $loremForm.on("submit", function(ev){
         var numParagrafos = $("#campo-paragrafo").val();
@@ -16,21 +25,10 @@ $(function(){
     });
     $loremForm.trigger('submit');
 
-    $(".botao-perola").on("click", function(){
-        var $perolaAtual = $(".perola-atual");
-        var index = parseInt($perolaAtual.attr("data-index"));
-        var incremento = parseInt($(this).attr("data-incremento"));
-        var indexResultado = (index + incremento) % PEROLAS.length;
-        $perolaAtual.attr("data-index", indexResultado);
-        $perolaAtual.fadeOut(500, function(){
-            $(this).text(PEROLAS[indexResultado]);
-            $(this).fadeIn(500);
-        });
-    });
     $(window).on('keydown', function(ev){
         if(ev.keyCode==39)
-            $(".botao-perola[data-incremento='1']").trigger('click');
+            $(".left .carousel-control").trigger('click');
         if(ev.keyCode==37)
-            $(".botao-perola[data-incremento='-1']").trigger('click');
+            $(".right .carousel-control").trigger('click');
     });
 });

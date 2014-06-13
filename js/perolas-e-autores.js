@@ -8,7 +8,7 @@
  * a frase da joana havelange dispensa fontes
 */
 var PEROLAS = [
-    "A CBF é exemplo. É o Brasil que dá certo",
+    "A CBF é exemplo. É o Brasil que dá certo.",
     "Em 2014, posso fazer a maldade que for. A maldade mais elástica, mais impensável, mais maquiavélica. Não dar credencial, proibir acesso, mudar horário de jogo. E sabe o que vai acontecer? Nada. Sabe por quê? Porque eu saio em 2015. E aí, acabou.",
     "A imprensa é a maior culpada de tudo isso. Por ser toda paulista, passou três anos tentando enfiar goela abaixo o Morumbi. Com isso, atrasaram todos os projetos.",
     "A gente vai receber Copa do Mundo e sem estádio não faz Copa do Mundo, amigo. Não faz Copa do Mundo com hospital. Tem que fazer estádio, senão não tem Copa do Mundo também.",
@@ -26,12 +26,14 @@ var PEROLAS = [
     "Um Mundial sem mim não vale a pena. Por isso não há necessidade de esperar chegar a Copa",
     "Ando de avião há mais de 40 anos e a única vez que fui assaltado na vida foi no aeroporto de Paris.",
     "Estamos no purgatório. Se ganharmos a Copa, vamos para o céu. Se perdermos, vamos para o inferno",
-    "Devemos dizer aos brasileiros que eles terão uma Copa do Mundo e que eles devem mostrar as belezas de seu país a paixão pelo futebol. Se eles puderem esperar um mês antes de organizarem manifestações, será bom para o Brasil e para o mundo do futebol.",
+    "Não conheço nenhuma reforma ou construção que seja entregue no prazo. Que não haja um acidente de trabalho. Que não haja estouro do orçamento. Estamos no Brasil, e o brasileiro termina tudo em cima da hora. É cultura nossa",
     "Nós nunca reclamamos de ir a pé (ao estádio). Vai a pé, vai descalço, vai de bicicleta, vai de jumento, vai de qualquer coisa. A gente está preocupado? Ah não, porque agora tem de ter metrô até dentro do estádio. Que babaquice que é essa?",
+    "Devemos dizer aos brasileiros que eles terão uma Copa do Mundo e que eles devem mostrar as belezas de seu país a paixão pelo futebol. Se eles puderem esperar um mês antes de organizarem manifestações, será bom para o Brasil e para o mundo do futebol.",
     "Sobre os vândalos, acho que tem que baixar o cacete neles, tirar da rua",
     "O que tinha que ser roubado já foi. Se fosse para protestar, que tivesse sido feito antes.",
     "Tem gente que torce para o Brasil dar errado. Tem muita gente torcendo para o Brasil dar errado, é só você olhar.",
-    "Não sou contra a Copa. Sou contra os petistas. Sou quase um analfabeto, só estudei até a quarta série, mas morei nos EUA e vi como as coisas são lá."
+    "Não sou contra a Copa. Sou contra os petistas. Sou quase um analfabeto, só estudei até a quarta série, mas morei nos EUA e vi como as coisas são lá.",
+    "Brazil! I think I’ll have to change my vacation plans"
 ];
 
 
@@ -39,43 +41,29 @@ var PEROLAS = [
 * Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
 var AUTORES = [
+    "",
     "Ricardo Teixeira",
-    "Ronaldo Fenômeno",
-    "Ronaldo Fenômeno",
-    "Ronaldo Fenômeno",
+    "Ricardo Teixeira",
     "Ronaldo Fenômeno",
     "Felipão",
     "Jerôme Valcke",
-    "Jerôme Valcke",
-    "Jerôme Valcke",
+    "Ronaldo Fenômeno",
     "Aldo Rebelo",
-    "Aldo Rebelo",
-    "Aldo Rebelo",
-    "Joseph Blatter",
-    "Joseph Blatter",
     "Joseph Blatter",
     "Bebeto",
     "Pelé",
-    "Pelé",
-    "Pelé",
-    "Pelé",
-    "Pelé",
-    "Pelé",
-    "Pelé",
-    "Pelé",
     "Eduardo Paes",
-    "Eduardo Paes",
-    "Eduardo Paes",
-    "Eduardo Paes",
-    "Eduardo Paes",
-    "Eduardo Paes",
-    "Eduardo Paes",
-    "Lula",
+    "Pelé",
+    "Jerôme Valcke",
     "Lula",
     "Ibraimovich",
+    "Aldo Rebelo",
     "José Maria Marin",
     "Michel Platini",
+    "Mario Gobbi",
+    "Ronaldo Fenômeno",
     "Joana Havelange",
     "Dilma",
-    "Latino"
+    "Latino",
+    "Ibraimovich"
 ];

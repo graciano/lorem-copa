@@ -8,6 +8,14 @@ input[type=number]{
     width: 40px;
 }
 
+.center-block{
+    float: none;
+}
+
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+
 .footer-principal {
     border-top: 1px solid rgba(0,0,0,0.05);
     margin-left: 50px;
@@ -31,8 +39,10 @@ h1{
     text-shadow: 0.01em 0.02em 0.01em #2A466E;
     font-size: 7em;
     margin: 0;
+    padding: 0;
 }
 h2, h3{
+    font-family: 'fifa_welcomeregular', sans-serif;
     color: #6BB54B;
 }
 a, a:hover, a:visited{
@@ -44,10 +54,6 @@ a, a:hover, a:visited{
     margin: auto;
     text-align: center;
     background-color: #FDE157;
-}
-
-p{
-    text-align: justify;
 }
 
 .form-horizontal{
@@ -63,11 +69,12 @@ p{
     overflow-y: auto;
     height: 320px;
     padding-top: 15px;
+    text-align: justify;
 }
-/*
+
 .quotation-mark{
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     font-size: 15em;
     opacity: 0.16;
     color: #1F4674;
@@ -76,9 +83,8 @@ p{
     padding-left: 15px;
     margin-left: 15px;
 }
-.perola-container{
-    z-index: 2;
-    padding-left: 15px;
+
+.blockquote-perola{
+    height: 180px;
     font-size: 1.2em;
-    margin-left: 20px;
-}*/
+}

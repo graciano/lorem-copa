@@ -35,10 +35,7 @@ var PEROLAS = [
     "Não sou contra a Copa. Sou contra os petistas. Sou quase um analfabeto, só estudei até a quarta série, mas morei nos EUA e vi como as coisas são lá.",
     "Brazil! I think I’ll have to change my vacation plans"
 ];
-
-
-/**
-* Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
+/** Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
 var AUTORES = [
     "Carlos Alberto Parreira",
@@ -59,8 +56,8 @@ var AUTORES = [
     "Ibraimovich",
     "Aldo Rebelo",
     "José Maria Marin",
-    "Michel Platini",
     "Mario Gobbi",
+    "Lula",
     "Ronaldo Fenômeno",
     "Joana Havelange",
     "Dilma",

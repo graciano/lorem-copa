@@ -10,7 +10,7 @@ $(function(){
         $(".carousel-inner", $("#carousel-info-lorem-copa"))
             .append("<div class='item blockquote-perola'><blockquote class='blockquote-reverse'>"
                 +"<p>"+perola+"</p>"
-                +"<footer><cite title=''>"+autor+"</cite></footer>"
+                +"<footer><cite>"+autor+"</cite></footer>"
             +"</blockquote></div>");
     }
 

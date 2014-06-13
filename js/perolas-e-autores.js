@@ -41,7 +41,7 @@ var PEROLAS = [
 * Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
 var AUTORES = [
-    "",
+    "Carlos Alberto Parreira",
     "Ricardo Teixeira",
     "Ricardo Teixeira",
     "Ronaldo Fenômeno",

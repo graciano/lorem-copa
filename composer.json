@@ -1,5 +1,6 @@
 {
     "require": {
-        "components/jquery": "2.0.*"
+        "components/jquery": "2.0.*",
+        "twitter/bootstrap": "v3.1"
     }
 }

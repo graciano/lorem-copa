@@ -28,8 +28,11 @@ $(function(){
                 contPalavras+=frase.split(" ").length;
             }
             if(autor)
-                texto+="<br><br> <em>        -"+ AUTORES[Math.floor(Math.random()*AUTORES.length)]+"</em><br><br>";
-            texto+="</p> <br>";
+                texto+="<footer><em>        -"+ AUTORES[Math.floor(Math.random()*AUTORES.length)]+"</em><footer>";
+            texto+="</p>";
+            if(i!=numParagrafos-1){
+                texto+=" <br>";
+            }
         }
         return texto;
     };

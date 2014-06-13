@@ -37,3 +37,15 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'fifa_welcomeregular';
+    src: url('../fonts/fifawelcome1.3-webfont.eot');
+    src: url('../fonts/fifawelcome1.3-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fifawelcome1.3-webfont.woff') format('woff'),
+    url('../fonts/fifawelcome1.3-webfont.ttf') format('truetype'),
+    url('../fonts/fifawelcome1.3-webfont.svg#fifa_welcomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -27,4 +27,10 @@ $(function(){
             $(this).fadeIn(500);
         });
     });
+    $(window).on('keydown', function(ev){
+        if(ev.keyCode==39)
+            $(".botao-perola[data-incremento='1']").trigger('click');
+        if(ev.keyCode==37)
+            $(".botao-perola[data-incremento='-1']").trigger('click');
+    });
 });

@@ -16,71 +16,95 @@
     <meta property="og:url" content="">
     <link rel="icon"
           type="image/png"
-          href="">
+          href="favicon.png">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="vendor/twitter/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Lorem Copa - Gerador de textos com as pérolas da Copa do Brasil 2014</title>
 </head>
 <body>
-    <div class="geral">
-        <div class="bg-header">
-            <header class="header-principal">
-                <h1>Lorem Copa</h1>
-                <h2>Gerador de texto aleatório para o seu site com as pérolas da Copa do Brasil 2014</h2>
-                <a href="https://github.com/graciano/lorem-copa" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-            </header>
+    <header class="header-principal">
+        <h1>Lorem Copa</h1>
+        <h2>Gerador de texto aleatório para o seu site com as pérolas da Copa do Brasil 2014</h2>
+        <a href="https://github.com/graciano/lorem-copa" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <form id="lorem-form" role="form" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="campo-paragrafo">Quantos parágrafos?</label>
+                        <input id="campo-paragrafo" type="number" value="2" name="paragrafos">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <span>Mostrar autores</span> <input type="checkbox" id="campo-autores" name="autores">
+                            <br>
+                            <em>(Os autores são aleatórios, baseados em quem mais falou besteira nos últimos tempos)</em>
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Gerar Pérolas ಠ_ಠ</button>
+                </form>
+            </div>
+            <div class="col-lg-8">
+                    <div id="lorem-copa" class="lorem-copa well">
+                        <!-- Texto gerado aqui -->
+                    </div>
+            </div>
         </div>
-        <section id="conteudo">
-            <form id="lorem-form">
-                <label for="campo-paragrafo">Quantos parágrafos?</label>
-                <input id="campo-paragrafo" type="number" value="2" name="paragrafos">
-                <br>
-                <label><input type="checkbox" id="campo-autores" name="autores">Mostrar autores</label>
-                <em>(Os autores são aleatórios, baseados em quem mais falou besteira nos últimos tempos)</em>
-                <br>
-                <br>
-                <button type="submit">Gerar Pérolas ಠ_ಠ</button>
-            </form>
-            <div class="lorem-copa">
-                <div id="lorem-copa">
-                    <!-- Texto gerado aqui -->
-                </div>
-            </div>
-            <div id="social">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/loremcopa" data-text="Lorem Copa é o lorem ipsum gerado com as 'pérolas' da copa do mundo 2014" data-via="meninoFuturo" data-lang="pt" data-hashtags="loremCopa">Tweetar</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-            </div>
-            <div id="perolas">
+        <div class="row">
+
+        </div>
+        <div class="row">
+            <div class="col-lg-5" id="slideshow-perolas">
                 <h2>Pérolas usadas como base:</h2>
-                <button type="button" class="botao-perola" data-incremento="-1">&lt;&lt;</button>
-                <button type="button" class="botao-perola" data-incremento="1">&gt;&gt;</button>
-                <div class="perola-container">
-                    <p class="perola-atual" data-index="0">A CBF é exemplo. É o Brasil que dá certo</p>
-                    <span class="quotation-mark">“</span>
+                <div id="carousel-info-lorem-copa" class="carousel slide carousel-info-eforan" data-ride="carousel" data-interval="8000">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-info-eforan" data-slide-to="0" class="active"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <span class="quotation-mark">“</span>
+                            <blockquote class="blockquote-reverse carousel-caption">
+                                <p>A CBF é exemplo. É o Brasil que dá certo</p>
+                                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-info-lorem-copa" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-info-lorem-copa" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
                 </div>
-            </div>
-        </section>
-        <footer class="footer-principal">
-            <span>
-                Sugestões: <a href="mailto:matheus@eforan.com">Matheus Graciano</a>
-            </span>
-            <br>
-            <span>fonte das pérolas:
-                <ul>
-                    <li>
-                        <a href="http://esportefino.cartacapital.com.br/frases-polemicas-copa-do-mundo-2014/" target="_blank">blog esporte fino</a>
-                    </li>
-                    <li>
-                        <a href="http://www.dilma.com.br/site/noticias/view/dilma-tem-muita-gente-torcendo-contra">frase da Dilma</a>
-                    </li>
-                    <li>
-                        <a href="https://br.esporteinterativo.yahoo.com/noticias/latino-diz-que-n%C3%A3o-faria-m%C3%BAsica-para-a-copa--%E2%80%9Csou-contra-os-petistas%E2%80%9D-222319134-spt.html">o caso Latino</a>
-                    </li>
-                </ul>
-            </span>
-        </footer>
-    </div>
-    <script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+            </div><!-- div col -->
+        </div><!-- row -->
+    </div><!-- container-fluid -->
+
+    <footer class="footer-principal">
+        <span>
+            Sugestões: <a href="mailto:matheus@eforan.com">Matheus Graciano</a>
+        </span> |
+        <span>fonte das pérolas:</span>
+        <ul>
+            <li>
+                <a href="http://esportefino.cartacapital.com.br/frases-polemicas-copa-do-mundo-2014/" target="_blank">blog esporte fino</a>
+            </li>
+            <li>
+                <a href="http://www.dilma.com.br/site/noticias/view/dilma-tem-muita-gente-torcendo-contra">frase da Dilma</a>
+            </li>
+            <li>
+                <a href="https://br.esporteinterativo.yahoo.com/noticias/latino-diz-que-n%C3%A3o-faria-m%C3%BAsica-para-a-copa--%E2%80%9Csou-contra-os-petistas%E2%80%9D-222319134-spt.html">o caso Latino</a>
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="vendor/components/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/twitter/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/perolas-e-autores.js"></script>
     <script type="text/javascript" src="js/lorem-copa.js"></script>
     <script type="text/javascript" src="js/script.js"></script>

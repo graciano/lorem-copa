@@ -59,6 +59,7 @@ var AUTORES = [
     "Mario Gobbi",
     "Lula",
     "Ronaldo Fenômeno",
+    "Michel Platini",
     "Joana Havelange",
     "Dilma",
     "Latino",

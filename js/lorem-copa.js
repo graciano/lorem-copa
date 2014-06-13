@@ -27,10 +27,9 @@ $(function(){
                 texto+=frase+". ";
                 contPalavras+=frase.split(" ").length;
             }
-            if(autor){
-                texto+="<br><br><em>        -"+ AUTORES[Math.floor(Math.random()*AUTORES.length)]+"</em>";
-            }
-            texto+="</p>";
+            if(autor)
+                texto+="<br><br> <em>        -"+ AUTORES[Math.floor(Math.random()*AUTORES.length)]+"</em><br><br>";
+            texto+="</p> <br>";
         }
         return texto;
     };

@@ -17,16 +17,19 @@
     <link rel="icon"
           type="image/png"
           href="">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Lorem Copa - Gerador de textos com as pérolas da Copa do Brasil 2014</title>
 </head>
 <body>
     <div class="geral">
-        <header>
-            <h1>Lorem Copa</h1>
-            <h2>Gerador de texto aleatório para o seu site com as pérolas da Copa do Brasil 2014</h2>
-            <a href="https://github.com/graciano/lorem-copa" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
-        </header>
+        <div class="bg-header">
+            <header class="header-principal">
+                <h1>Lorem Copa</h1>
+                <h2>Gerador de texto aleatório para o seu site com as pérolas da Copa do Brasil 2014</h2>
+                <a href="https://github.com/graciano/lorem-copa" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+            </header>
+        </div>
         <section id="conteudo">
             <form id="lorem-form">
                 <label for="campo-paragrafo">Quantos parágrafos?</label>
@@ -38,22 +41,26 @@
                 <br>
                 <button type="submit">Gerar Pérolas ಠ_ಠ</button>
             </form>
-            <button type="button" id="volta-form" class="lorem-copa">&lt;&lt;Voltar</button>
-            <div id="lorem-copa" class="lorem-copa">
-                <!-- Texto gerado aqui -->
+            <div class="lorem-copa">
+                <div id="lorem-copa">
+                    <!-- Texto gerado aqui -->
+                </div>
             </div>
             <div id="social">
                 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/loremcopa" data-text="Lorem Copa é o lorem ipsum gerado com as 'pérolas' da copa do mundo 2014" data-via="meninoFuturo" data-lang="pt" data-hashtags="loremCopa">Tweetar</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             </div>
             <div id="perolas">
-                <h3>Pérolas usadas como base:</h3>
+                <h2>Pérolas usadas como base:</h2>
                 <button type="button" class="botao-perola" data-incremento="-1">&lt;&lt;</button>
                 <button type="button" class="botao-perola" data-incremento="1">&gt;&gt;</button>
-                <p class="perola-atual" data-index="0">A CBF é exemplo. É o Brasil que dá certo</p>
+                <div class="perola-container">
+                    <p class="perola-atual" data-index="0">A CBF é exemplo. É o Brasil que dá certo</p>
+                    <span class="quotation-mark">“</span>
+                </div>
             </div>
         </section>
-        <footer class="footer-bottom">
+        <footer class="footer-principal">
             <span>
                 Sugestões: <a href="mailto:matheus@eforan.com">Matheus Graciano</a>
             </span>

@@ -5,9 +5,11 @@
  * http://esportefino.cartacapital.com.br/frases-polemicas-copa-do-mundo-2014/
  * http://www.dilma.com.br/site/noticias/view/dilma-tem-muita-gente-torcendo-contra
  * https://br.esporteinterativo.yahoo.com/noticias/latino-diz-que-n%C3%A3o-faria-m%C3%BAsica-para-a-copa--%E2%80%9Csou-contra-os-petistas%E2%80%9D-222319134-spt.html
+ * http://veja.abril.com.br/blog/augusto-nunes/homem-sem-visao/aldo-rebelo-afirma-agora-que-o-brasil-e-mais-seguro-que-a-siria-e-renan-calheiros-invade-outra-vez-a-briga-pelo-trofeu/
  * a frase da joana havelange dispensa fontes
 */
 var PEROLAS = [
+    "Os estrangeiros precisam saber que, caso fiquem longe das favelas pacificadas, não caminhem nas ruas à noite, não carreguem equipamentos eletrônicos, andem com pouco dinheiro e não ofereçam resistência caso sejam abordados por bandidos, nosso país sem dúvida é muito menos perigoso que a Síria, o Iraque e o Afeganistão.",
     "A CBF é exemplo. É o Brasil que dá certo.",
     "Em 2014, posso fazer a maldade que for. A maldade mais elástica, mais impensável, mais maquiavélica. Não dar credencial, proibir acesso, mudar horário de jogo. E sabe o que vai acontecer? Nada. Sabe por quê? Porque eu saio em 2015. E aí, acabou.",
     "A imprensa é a maior culpada de tudo isso. Por ser toda paulista, passou três anos tentando enfiar goela abaixo o Morumbi. Com isso, atrasaram todos os projetos.",
@@ -38,6 +40,7 @@ var PEROLAS = [
 /** Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
 var AUTORES = [
+    "Aldo Rebelo",
     "Carlos Alberto Parreira",
     "Ricardo Teixeira",
     "Ricardo Teixeira",

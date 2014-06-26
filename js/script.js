@@ -5,12 +5,12 @@ $(function(){
     var $loremCopa = $("#lorem-copa");
     var $loremForm = $("#lorem-form");
     $("#primeira-perola").append("<div class='item blockquote-perola'><blockquote class='blockquote-reverse'>"
-        +"<p>"+PEROLAS[0]+"</p>"
-        +"<footer><cite>"+AUTORES[0]+"</cite></footer>"
+        +"<p>"+PEROLAS[INDICES[0]]+"</p>"
+        +"<footer><cite>"+AUTORES[INDICES[0]]+"</cite></footer>"
         +"</blockquote></div>");
     for(var i=1; i<PEROLAS.length; i++){
-        var perola = PEROLAS[i];
-        var autor = AUTORES[i];
+        var perola = PEROLAS[INDICES[i]];
+        var autor = AUTORES[INDICES[i]];
         $(".carousel-inner", $("#carousel-info-lorem-copa"))
             .append("<div class='item blockquote-perola'><blockquote class='blockquote-reverse'>"
                 +"<p>"+perola+"</p>"

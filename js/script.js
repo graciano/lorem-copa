@@ -31,8 +31,8 @@ $(function(){
 
     $(window).on('keydown', function(ev){
         if(ev.keyCode==39)
-            $(".left .carousel-control").trigger('click');
+            $(".right.carousel-control").trigger('click');
         if(ev.keyCode==37)
-            $(".right .carousel-control").trigger('click');
+            $(".left.carousel-control").trigger('click');
     });
 });

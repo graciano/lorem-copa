@@ -76,8 +76,8 @@ a, a:hover, a:visited{
     position: absolute;
     z-index: -1;
     font-size: 15em;
-    opacity: 0.16;
-    color: #1F4674;
+    opacity: 0.46;
+    color: #6BB54B;
     text-shadow: 0.01em 0.02em 0.01em #000;
     font-family: 'elephantregular', serif;
     padding-left: 15px;
@@ -87,4 +87,23 @@ a, a:hover, a:visited{
 .blockquote-perola{
     height: 180px;
     font-size: 1.2em;
+}
+
+.btn-primary:hover, .btn-primary:focus{
+    border-color: #FDE157;
+    box-shadow: 0 1px 1px rgba(253,225,87, 0.5) inset, 0 0 8px rgba(253,225,87, 1);
+    outline: 0 none;
+}
+
+.carousel-control{
+    color: #FDE157!important;
+}
+
+
+.btn-primary{
+    background-color: #6BB54B;
+    border-color: #2B952B;
+}
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #2B952B;
 }

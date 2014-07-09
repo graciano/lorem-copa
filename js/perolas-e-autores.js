@@ -7,6 +7,8 @@
  * https://br.esporteinterativo.yahoo.com/noticias/latino-diz-que-n%C3%A3o-faria-m%C3%BAsica-para-a-copa--%E2%80%9Csou-contra-os-petistas%E2%80%9D-222319134-spt.html
  * http://veja.abril.com.br/blog/augusto-nunes/homem-sem-visao/aldo-rebelo-afirma-agora-que-o-brasil-e-mais-seguro-que-a-siria-e-renan-calheiros-invade-outra-vez-a-briga-pelo-trofeu/
  * a frase da joana havelange dispensa fontes
+ * **depois que o Brasil perdeu**
+ * https://twitter.com/bbcbrasil/status/486674977610272769/photo/1
 */
 PEROLAS = [
     "Os estrangeiros precisam saber que, caso fiquem longe das favelas pacificadas, não caminhem nas ruas à noite, não carreguem equipamentos eletrônicos, andem com pouco dinheiro e não ofereçam resistência caso sejam abordados por bandidos, nosso país sem dúvida é muito menos perigoso que a Síria, o Iraque e o Afeganistão.",
@@ -35,7 +37,8 @@ PEROLAS = [
     "O que tinha que ser roubado já foi. Se fosse para protestar, que tivesse sido feito antes.",
     "Tem gente que torce para o Brasil dar errado. Tem muita gente torcendo para o Brasil dar errado, é só você olhar.",
     "Não sou contra a Copa. Sou contra os petistas. Sou quase um analfabeto, só estudei até a quarta série, mas morei nos EUA e vi como as coisas são lá.",
-    "Brazil! I think I’ll have to change my vacation plans."
+    "Brazil! I think I’ll have to change my vacation plans.",
+    "Eu sempre falei que o futebol é um caixinha de surpresas. Ninguém esperava esse resultado."
 ];
 /** Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
@@ -66,5 +69,6 @@ AUTORES = [
     "Joana Havelange",
     "Dilma",
     "Latino",
-    "Ibraimovich"
+    "Ibraimovich",
+    "Pelé"
 ];

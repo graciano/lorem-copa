@@ -9,6 +9,7 @@
  * a frase da joana havelange dispensa fontes
  * **depois que o Brasil perdeu**
  * https://twitter.com/bbcbrasil/status/486674977610272769/photo/1
+ * http://copadomundo.uol.com.br/noticias/redacao/2014/07/17/gilmar-critica-bone-de-apoio-a-neymar-deveria-ser-forca-bernard.htm
 */
 PEROLAS = [
     "Os estrangeiros precisam saber que, caso fiquem longe das favelas pacificadas, não caminhem nas ruas à noite, não carreguem equipamentos eletrônicos, andem com pouco dinheiro e não ofereçam resistência caso sejam abordados por bandidos, nosso país sem dúvida é muito menos perigoso que a Síria, o Iraque e o Afeganistão.",
@@ -38,7 +39,8 @@ PEROLAS = [
     "Tem gente que torce para o Brasil dar errado. Tem muita gente torcendo para o Brasil dar errado, é só você olhar.",
     "Não sou contra a Copa. Sou contra os petistas. Sou quase um analfabeto, só estudei até a quarta série, mas morei nos EUA e vi como as coisas são lá.",
     "Brazil! I think I’ll have to change my vacation plans.",
-    "Eu sempre falei que o futebol é um caixinha de surpresas. Ninguém esperava esse resultado."
+    "Eu sempre falei que o futebol é um caixinha de surpresas. Ninguém esperava esse resultado.",
+    "Essa coisa da vaidade, eu joguei com grandes jogadores, não vou ter problemas. No jogo da Alemanha, uma coisa que me incomodou foi o boné. Acho que a frase tinha que ser 'Força, Bernard'. As coisas são dinâmicas e mudam muito. Tinha que ter o nome do jogador que fosse entrar. Não entrou em sincronia. Acho que poderia ter sido outra frase"
 ];
 /** Se aparecer alguém várias vezes, é pra aparecer mais vezes, devido ao esforço que fizeram pra falar tanta merda
 * */
@@ -70,5 +72,6 @@ AUTORES = [
     "Dilma",
     "Latino",
     "Ibraimovich",
-    "Pelé"
+    "Pelé",
+    "Gilmar Rinaldi"
 ];

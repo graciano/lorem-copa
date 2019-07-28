@@ -1,6 +1,13 @@
 lorem-copa
 ==========
 
+
+## Archived all my public repos in support for the embargoed devs
+
+See more [here](https://github.com/1995parham/github-do-not-ban-us)
+
+Migrated this repo to gitlab. Check my profile: https://gitlab.com/wtfgraciano
+
 Lorem Copa. O lorem ipsum para o seu site com as pérolas da Copa do Brasil 2014.
 A ideia básica é pegar uma fonte de "pérolas" e gerar um texto aleatório com as frases obtidas.
 
